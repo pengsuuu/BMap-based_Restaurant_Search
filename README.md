@@ -7,12 +7,14 @@ Written time:18:00, Jan 14, 2016 @Beijing
 Author: Pengsu Zhao
 
 [Required/Committed features (all achieved)]
+
 1. Listing some restaruants by user searching. (Seach innput value could be location or a specific name)
 2. User allowed to filtering list results. (filter options could be price arrange and district)
 3. User allowed to have a sorted list by different ways. (sorting results by price, distance or rates)
 4. While more results comes up, they should be split into different page, the pager bar provided to user.
 
 [Use Guide]
+
 1. Basic Requirement:
    You have to connect your device to Internet.
    All imgs, data and other formated data trived from server, as JSON format.
