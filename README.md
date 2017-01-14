@@ -3,7 +3,7 @@
 You can search some restaurants from my favourite list.
 
 [Initial version document]
-Written time:18:00, Jan 14, 2016 @Beijing
+Written time:18:00, Jan 14, 2017 @Beijing
 Author: Pengsu Zhao
 
 [Required/Committed features (all achieved)]
