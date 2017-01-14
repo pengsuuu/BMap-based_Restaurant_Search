@@ -1,0 +1,124 @@
+
+
+body{
+    font-family:"Hiragino Sans GB","微软雅黑", serif;
+    font-size:12px;
+}
+#pageHeader{
+    background-color:#444;
+    border-bottom:1px solid #EDEDED;
+}
+#pageMiddle{
+    background:white;
+    border-bottom:1px solid #EDEDED;
+    margin-bottom:5px;
+    padding:15px 0;
+}
+#filterBox{
+    padding-top:10px;
+    clear: both;
+}
+#filterBox li a.activate{
+    color:red;
+    text-decoration:none;
+    cursor:default;
+}
+#mapBox{
+    width:100%;
+    height:500px;
+    position:relative;
+}
+#map{
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:400px;
+}
+#mapPanel{
+    position:absolute;
+    width:400px;
+    top:0;
+    bottom:0;
+    right:0;
+    height:100%;
+}
+#mapListWrap{
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:41px;
+    overflow:auto;
+}
+img{
+    max-width:none;
+}
+h1{
+    text-align: center;
+    font-size:24px;
+    font-family: 'Hiragino Sans GB','微软雅黑', serif;
+    color:white;
+}
+.dl-horizontal dt{
+    width:70px;
+}
+.dl-horizontal dd{
+    margin-left:50px;
+}
+.dl-horizontal{
+    margin:0;
+}
+dl {
+    float: left;
+    width: 380px;
+    font-size: 14px;
+}
+#chgMode{
+    margin-right:10px;
+}
+
+.BMapLib_nav_tab_content input{
+    padding:0;
+    margin:0;
+}
+#selectedValue{
+    width:300px;
+    padding-left:5px;
+}
+#selectedValue .span1{
+    white-space: nowrap;
+    padding:0 5px;
+    color:white;
+    width:auto;
+    text-align:center;
+    background:#3cf;
+    height:30px;
+    line-height:30px;
+    border-radius:3px;
+}
+#selectedValue .icon-remove{
+    margin-left:5px;
+    cursor:pointer;
+}
+#listBox{
+    padding-bottom:0;
+}
+#listWrap{
+    border-color:#DDD;
+    border-style:solid;
+    border-width:0 1px 1px 1px;
+}
+#listWrap table{
+    margin-bottom:0;
+}
+#mapPager {
+    position:absolute;
+    margin:0;
+    bottom:0;
+    left:50px;
+}
+td{
+    font-size:16px;
+}

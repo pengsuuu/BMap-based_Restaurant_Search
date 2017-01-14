@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>BMap_Restaurant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./bootstrap.css" rel="stylesheet">
+    <link href="./main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div id="pageHeader">
+    <div class="container">
+        <h1>Pengsu BMap-based Demo</h1>
+    </div>
+</div>
+
+<div id="pageMiddle">
+    <div class="container" id = "header">
+        <div id="toolsBar" class="clearfix">
+            <div class="pull-left">
+                <input type="search" id="keyword" class="input-large search-query" placeholder="输入地理位置或餐馆名称">
+                <span class="btn btn-primary" id="searchBtn">搜索</span>
+            </div>
+            <div class="row-fluid show-grid pull-left" id="selectedValue">
+            </div>
+            <div class="pull-right">
+                <span class="btn btn-success" id="chgMode">列表 / 地图</span>
+            </div>
+        </div>
+        <div id="filterBox">
+        </div>
+    </div> <!-- /container -->
+</div>
+
+<div class="container" id="mainContainer">
+    <div class="bs-docs-example" id="listBox">
+        <div id="listWrap">
+            <table class="table table-hover table-striped">
+                <tbody id="listBoby">
+                </tbody>
+            </table>
+        </div>
+        <div id="pager" class="pagination text-center"></div>
+    </div>
+</div> <!-- /container -->
+
+<div id="mapBox" style="display:none;">
+    <div id="map" class="pull-left"></div>
+    <div id="mapPanel" class="pull-right">
+        <div id="mapListWrap">
+            <table class="table table-hover">
+                <tbody id="mapList">
+                </tbody>
+            </table>
+        </div>
+        <div id="mapPager" class="pagination text-center"></div>
+    </div>
+</div>
+
+
+<script src="http://api.map.baidu.com/api?v=2.0&ak=Dvx1hizsMHzQGKAfYqOHOLGrqFOUttrg" type="text/javascript"> </script>
+<script type="text/javascript" src="./jquery.js"></script>
+<script type="text/javascript" src="./jquery.pager.js"></script>
+<script type="text/javascript" src="./bootstrap.js"></script>
+<script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
+
